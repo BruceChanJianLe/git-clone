@@ -18,7 +18,7 @@ Therefore, the next command is sparse-checkout!
 
 ```bash
 # Init sparse checkout
-git sparse-checkout init --conegi
+git sparse-checkout init --cone
 # Select the files and folder to be checkout (using the above repo as example)
 git sparse-checkout add scripts README.md
 # Finally checkout to that branch
