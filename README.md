@@ -19,8 +19,10 @@ Therefore, the next command is sparse-checkout!
 ```bash
 # Init sparse checkout
 git sparse-checkout init --cone
-# Select the files and folder to be checkout (using the above repo as example)
+# Select the files and dirs to be checkout (using the above repo as example)
 git sparse-checkout add scripts README.md
+# List the select files and dirs
+git sparse-checkout list
 # Finally checkout to that branch
 git checkout master
 ```
