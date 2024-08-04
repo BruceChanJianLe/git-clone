@@ -18,9 +18,16 @@ Therefore, the next command is sparse-checkout!
 
 ```bash
 # Init sparse checkout
-git sparse-checkout init
+git sparse-checkout init --conegi
 # Select the files and folder to be checkout (using the above repo as example)
 git sparse-checkout add scripts README.md
 # Finally checkout to that branch
 git checkout master
+```
+
+Of course, if you missed out anything, you can always add it.
+```bash
+git sparse-checkout add docker_build
+# To disable git sparse checkout feature
+git sparse-checkout disable
 ```
