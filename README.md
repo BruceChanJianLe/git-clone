@@ -33,3 +33,7 @@ git sparse-checkout add docker_build
 # To disable git sparse checkout feature
 git sparse-checkout disable
 ```
+
+## Reference
+
+- https://www.youtube.com/watch?v=jOVWHIDvpe8
