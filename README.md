@@ -36,4 +36,5 @@ git sparse-checkout disable
 
 ## Reference
 
+- https://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone/
 - https://www.youtube.com/watch?v=jOVWHIDvpe8
